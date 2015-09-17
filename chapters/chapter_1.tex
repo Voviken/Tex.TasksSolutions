@@ -236,15 +236,52 @@ $$
 \end{flalign*}
 
 \section*{Група 2}
-\begin{multline*}
-{\mathbf 1.}\;
-\sqrt{27 + 10\sqrt{2}} + \sqrt{27 - 10\sqrt{2}} =\\
-= \sqrt{5^2 + 2\cdot 5 \cdot \sqrt{2} + \left(\sqrt{2}\right)^2} + \sqrt{5^2 - 2\cdot 5 \cdot \sqrt{2} + \left(\sqrt{2}\right)^2} =\\
-= \sqrt{\left(5 + \sqrt{2}\right)^2} + \sqrt{\left(5 - \sqrt{2}\right)^2} =
-\left|5 + \sqrt{2}\right| + \left|5 - \sqrt{2}\right| =
-5 + \cancel{\sqrt{2}} + 5 - \cancel{\sqrt{2}} = 10;
-\end{multline*}
+\textbf{1.} Обчислити:
+$$
+\sqrt{27 + 10\sqrt{2}} + \sqrt{27 - 10\sqrt{2}}.
+$$
+Цю задачу можна розв'язати двома способами. Перший спосіб є менш очевидний і ґрунтується на такій рівності:
+$$
+27 \pm 10\sqrt{2} = 25 \pm 10\sqrt{2} + 2 = 5^2 \pm 2 \cdot 5 \cdot \sqrt{2} + \left(\sqrt{2}\right)^2 = \left(5 \pm \sqrt{2}\right)^2.
+$$
+Другий спосіб розглянемо детально.
+\\
+Введемо таку заміну:
+$$
+a = \sqrt{27 + 10\sqrt{2}} \;\;\; \mbox{і} \;\;\; b = \sqrt{27 - 10\sqrt{2}};
+$$
+Нам потрібно знайти:
+$$
+s = a + b.
+$$
+$$
+s^2 = (a + b)^2 = a^2 + 2ab + b^2;
+$$
+\begin{flalign*}
+a^2 = 27 + 10\sqrt{2};\;\;
+b^2 = 27 - 10\sqrt{2};\;\;
+ab = \sqrt{729 - 200};
+\end{flalign*}
+Отже,
+$$
+s^2 = 27 + \cancel{10\sqrt{2}} + 2 \cdot \sqrt{529} + 27 - \cancel{10\sqrt{2}} =
+54 + 2 \cdot 23 = 100;
+$$
+А звідси $s = \pm 10$.
+\\
+Оскільки $a \geq 0$  і $b \geq 0$, то їх сума також невід'ємна, а отже $s = -10$ не
+є розв'язком рівняння. І залишається $s = 10$.
+\vspace{5mm}
+\\
+\textbf{2.} Обчислити:
+$$
+\sqrt{29 - 12\sqrt{5}} - \sqrt{20 + 12\sqrt{5}}.
+$$
 
+
+
+
+\begin{comment}
 \begin{multline*}
 {\mathbf 2.}\;
 \sqrt{29 - 12\sqrt{5}} - \sqrt{29 + 12\sqrt{5}} =
@@ -335,3 +372,4 @@ x = 2;
 $$
 
 $\sqrt{4 + 0} + \sqrt{2 + 2 + 0} = 2 + 2 = 4$;
+\end{comment}
