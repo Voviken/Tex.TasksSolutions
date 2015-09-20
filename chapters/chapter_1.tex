@@ -277,99 +277,210 @@ $$
 $$
 \sqrt{29 - 12\sqrt{5}} - \sqrt{20 + 12\sqrt{5}}.
 $$
-
-
-
-
-\begin{comment}
-\begin{multline*}
-{\mathbf 2.}\;
-\sqrt{29 - 12\sqrt{5}} - \sqrt{29 + 12\sqrt{5}} =
-\sqrt{29 - 2\cdot 3 \cdot \sqrt{5}} - \sqrt{29 + 2\cdot 3 \cdot \sqrt{5}} =\\
-= \sqrt{29 - 3\sqrt{4 \cdot 5}} - \sqrt{29 + 3\sqrt{4 \cdot 5}} =
-\sqrt{29 - 3\sqrt{20}} - \sqrt{29 + 3\sqrt{20}} =\\
-= \sqrt{\left(\sqrt{20}\right)^2 - 3\sqrt{20} + 3^2} - \sqrt{\left(\sqrt{20}\right)^2 + 3\sqrt{20} + 3^2} =\\
-= \sqrt{\left(\sqrt{20} - 3\right)^2} - \sqrt{\left(\sqrt{20} + 3\right)^2} =
-\left|\sqrt{20} - 3\right| - \left|\sqrt{20} + 3\right| =\\
-= \cancel{\sqrt{20}} - 3 - \cancel{\sqrt{20}} - 3 = -6;
-\end{multline*}
-
-\begin{multline*}
-{\mathbf 4.}\;
-\left(\sqrt[6]{3 + 2\sqrt{2}} + \sqrt[3]{1 + \sqrt{2}}\right) \cdot \sqrt[3]{1 - \sqrt{2}} =\\
-= \left(\sqrt[6]{\left(\sqrt{2}\right)^2 + 2\sqrt{2} + 1^2} + \sqrt[3]{1 + \sqrt{2}}\right) \cdot \sqrt[3]{1 - \sqrt{2}} =\\
-= \left(\sqrt[6]{\left(\sqrt{2} + 1\right)^2} + \sqrt[3]{1 + \sqrt{2}}\right) \cdot \sqrt[3]{1 - \sqrt{2}} =\\
-= \left(\sqrt[3]{\sqrt{2} + 1} + \sqrt[3]{1 + \sqrt{2}}\right) \cdot \sqrt[3]{1 - \sqrt{2}} =\\
-= 2\sqrt[3]{1 + \sqrt{2}} \cdot \sqrt[3]{1 - \sqrt{2}} =
-2\sqrt[3]{\left(1 + \sqrt{2}\right) \cdot \left(1 - \sqrt{2}\right)} =\\
-= 2 \cdot \sqrt[3]{1 - 2} = 2 \cdot (-1) = -2;
-\end{multline*}
-
-\textbf{5.}
+Менш очевидний спосіб розв'язання базується на рівності:
 $$
-2 \pm \sqrt{5} = \left(\frac{1 \pm \sqrt{5}}{2}\right)^3;
+29 \pm 12\sqrt{5} =
+20 \pm 2 \cdot 3 \cdot \sqrt{4 \cdot 5} + 9 =
+\left(\sqrt{20}\right)^2 \pm 2 \cdot 3 \cdot \sqrt{20} + 3^2 =
+\left(\sqrt{20} \pm 3\right)^2.
 $$
-або
+Також, цю задачу можна розв'язати ввівши таку заміну:
 $$
-s = a + b; a = \sqrt[3]{2 + \sqrt{5}}, b = \sqrt[3]{2 - \sqrt{5}};
+a = \sqrt{29 - 12\sqrt{5}} \;\;\; \mbox{і} \;\;\; b = \sqrt{29 + 12\sqrt{5}}
 $$
-
-\begin{multline*}
-{\mathbf 7.}\;
+Таким чином, нам потрібно знайти:
+$$
+s = a - b;
+$$
+$$
+s^2 = (a - b)^2 = a^2 - 2ab + b^2;
+$$
+\begin{flalign*}
+a^2 = 29 - 12\sqrt{5};\;\;
+b^2 = 29 - 12\sqrt{5};\;\;
+ab = \sqrt{841 - 720} = 11;
+\end{flalign*}
+Отже,
+$$
+s^2 = 29 - \cancel{12\sqrt{5}} - 2 \cdot 11 + 29 + \cancel{12\sqrt{5}} = 36;
+$$
+А звідси $s = \pm 6$.
+\\
+Очевидно, що 
+$$\sqrt{29 - 12\sqrt{5}} < \sqrt{29 + 12\sqrt{5}},$$
+а отже і 
+$$\sqrt{29 - 12\sqrt{5}} - \sqrt{29 + 12\sqrt{5}} < 0.$$
+Значить, за розв'язок задачі беремо $s = -6$.
+\vspace{5mm}
+\\
+\textbf{3.} Обчислити:
+$$
+\sqrt{10}\left(\sqrt{6 - \sqrt{35}} - \sqrt{6 + \sqrt{35}}\right).
+$$
+Перш за все розкриємо дужки:
+$$
+\sqrt{10}\left(\sqrt{6 - \sqrt{35}} - \sqrt{6 + \sqrt{35}}\right) =
+\sqrt{60 - 10\sqrt{35}} - \sqrt{60 + 10\sqrt{35}}.
+$$
+Менш очевидний спосіб розв'язання базується на рівності:
+$$
+60 \pm 10\sqrt{35} =
+25 \pm 2 \cdot 5 \cdot \sqrt{35} + 35 =
+5^2 \pm 2 \cdot 5 \cdot \sqrt{35} + \left(\sqrt{35}\right)^2 =
+\left(5 \pm \sqrt{35}\right)^2.
+$$
+Також, цю задачу можна розв'язати ввівши таку заміну:
+$$
+a = \sqrt{60 - 10\sqrt{35}} \;\;\; \mbox{і} \;\;\; b = \sqrt{60 + 10\sqrt{35}}
+$$
+Таким чином, нам потрібно знайти:
+$$
+s = a - b;
+$$
+$$
+s^2 = (a - b)^2 = a^2 - 2ab + b^2;
+$$
+\begin{flalign*}
+a^2 = 60 - 10\sqrt{35};\;\;
+b^2 = 60 - 10\sqrt{35};\;\;
+ab = \sqrt{3600 - 3500} = 10;
+\end{flalign*}
+Отже,
+$$
+s^2 = 60 - \cancel{10\sqrt{35}} - 2 \cdot 10 + 60 + \cancel{10\sqrt{35}} = 100;
+$$
+А звідси $s = \pm 10$.
+\\
+Очевидно, що 
+$$\sqrt{60 - 10\sqrt{35}} < \sqrt{60 + 10\sqrt{35}},$$
+а отже і 
+$$\sqrt{60 - 10\sqrt{35}} < \sqrt{60 + 10\sqrt{35}} < 0.$$
+Значить, за розв'язок задачі беремо $s = -10$.
+\vspace{5mm}
+\\
+\textbf{4.} Обчислити:
+$$
+\left(\sqrt[6]{3 + 2\sqrt{2}} + \sqrt[3]{1 + \sqrt{2}}\right) \cdot \sqrt[3]{1 - \sqrt{2}}.
+$$
+Розкриємо дужки і візьмемо до уваги, що $\sqrt[6]{a} \cdot \sqrt[3]{b} = \sqrt[6]{a \cdot b^2}$.
+\begin{flalign*}
+&\left(\sqrt[6]{3 + 2\sqrt{2}} + \sqrt[3]{1 + \sqrt{2}}\right) \cdot \sqrt[3]{1 - \sqrt{2}} =\\
+&= \sqrt[6]{\left(3 + 2\sqrt{2}\right) \cdot \left(1 - \sqrt{2}\right)^2} + \sqrt[3]{\left(1 + \sqrt{2}\right) \cdot \left(1 - \sqrt{2}\right)} =\\
+&= \sqrt[6]{\left(3 + 2\sqrt{2}\right) \cdot \left(1 - 2\sqrt{2} + 2\right)} + \sqrt[3]{1 - 2} =\\
+&= \sqrt[6]{\left(3 + 2\sqrt{2}\right) \cdot \left(3 - 2\sqrt{2}\right)} - 1 =\\
+&= \sqrt[6]{9 - 8} - 1 = 1 - 1 = 0.
+\end{flalign*}
+\textbf{5.} Обчислити:
+$$
+\sqrt[3]{2 + \sqrt{5}} + \sqrt[3]{2 - \sqrt{5}}.
+$$
+Перш за все слід зауважити, що:
+$$
+2 \pm \sqrt{5} = \left(\frac{1 \pm \sqrt{5}}{2}\right)^3.
+$$
+Інший спосіб потребує введення заміни:
+$$
+a = \sqrt[3]{2 + \sqrt{5}} \;\;\; \mbox{і} \;\;\; b = \sqrt[3]{2 - \sqrt{5}}.
+$$
+Нам потрібно знайти 
+\begin{gather*}
+s = a + b;\\
+s^3 = (a + b)^3 = a^3 + 3ab(a + b) + b^3;\\
+a^3 = 2 + \sqrt{5};\;\;
+b^2 = 2 - \sqrt{5};\\
+ab = \sqrt[3]{\left(2 + \sqrt{5}\right) \cdot \left(2 - \sqrt{5}\right)} =
+\sqrt[3]{4 - 5} = -1;
+\end{gather*}
+Отже,
+\begin{flalign*}
+&s^3 = 2 + \cancel{\sqrt{5}} + 3 \cdot (-1) \cdot s + 2 - \cancel{\sqrt{5}};\\
+&s^3 + 3s - 4 = 0;
+\end{flalign*}
+Таким чином ми звели наш вираз до рівняння відносно $s$. Розв'яжемо це рівняння:
+\begin{flalign*}
+&s^3 + 3s - 4 = 0;\\
+&s^3 - s + 4s - 4 = 0;\\
+&s(s^2 - 1) + 4(s - 1) = 0;\\
+&s(s - 1)(s + 1) + 4(s - 1) = 0;\\
+&(s - 1)[s(s + 1) + 4] = 0;\\
+&(s - 1)(s^2 + s + 4) = 0;\\
+\end{flalign*}
+Це рівняння має лише один розв'язок $s = 1$. Або, повернувшись до заміни, отримаємо:
+$$
+s = a + b = \sqrt[3]{2 + \sqrt{5}} + \sqrt[3]{2 - \sqrt{5}} = 1.
+$$
+Що й потрібно було знайти.
+\vspace{5mm}
+\\
+\textbf{6.} Обчислити:
+$$
+\sqrt[3]{20 + 14\sqrt{2}} + \sqrt[3]{20 - 14\sqrt{2}}.
+$$
+Введемо заміну:
+$$
+a = \sqrt[3]{20 + 14\sqrt{2}} \;\;\; \mbox{і} \;\;\; b = \sqrt[3]{20 - 14\sqrt{2}}.
+$$
+Нам потрібно знайти 
+\begin{gather*}
+s = a + b;\\
+s^3 = (a + b)^3 = a^3 + 3ab(a + b) + b^3;\\
+a^3 = 20 + 14\sqrt{2};\;\;
+b^2 = 20 - 14\sqrt{2};\\
+ab = \sqrt[3]{\left(20 + 14\sqrt{2}\right) \cdot \left(20 - 14\sqrt{2}\right)} =
+\sqrt[3]{400 - 392} = 2;
+\end{gather*}
+Отже,
+\begin{flalign*}
+&s^3 = 20 + \cancel{14\sqrt{2}} + 3 \cdot 2 \cdot s + 20 - \cancel{14\sqrt{2}};\\
+&s^3 - 6s - 40 = 0;
+\end{flalign*}
+Таким чином ми звели наш вираз до рівняння відносно $s$. Розв'яжемо це рівняння:
+\begin{flalign*}
+&s^3 + 6s - 40 = 0;\\
+&(s - 4)(s^2 + 4s + 10) = 0;
+\end{flalign*}
+Це рівняння має лише один розв'язок $s = 4$. Або, повернувшись до заміни, отримаємо:
+$$
+s = a + b = \sqrt[3]{20 + 14\sqrt{2}} + \sqrt[3]{20 - 14\sqrt{2}} = 4.
+$$
+Що й потрібно було знайти.
+\vspace{5mm}
+\\
+\textbf{7.} Обчислити:
+$$
+\frac{\sqrt{8 - 2\sqrt{15}}}{\sqrt{3} - \sqrt{5}}.
+$$
+Ми можемо скористатися таким виразом:
+$$
+8 - 2\sqrt{15} =
+\left(\sqrt{3}\right)^2 - 2\sqrt{3 \cdot 5} + \left(\sqrt{5}\right)^2 =
+\left(\sqrt{3} - \sqrt{5}\right)^2.
+$$
+Отже,
+\begin{flalign*}
 \frac{\sqrt{8 - 2\sqrt{15}}}{\sqrt{3} - \sqrt{5}} =
-\frac{\sqrt{\left(\sqrt{3}\right)^2 - 2\sqrt{3}\sqrt{5} + \left(\sqrt{5}\right)^2}}{\sqrt{3} - \sqrt{5}} =
-\frac{\sqrt{\left(\sqrt{3} - \sqrt{5}\right)^2}}{\sqrt{3} - \sqrt{5}} =\\
-= \frac{\left|\sqrt{3} - \sqrt{5}\;\right|}{-\left(\sqrt{5} - \sqrt{3}\right)} =
-\frac{\sqrt{5} - \sqrt{3}}{\sqrt{5} - \sqrt{3}} = -1;
-\end{multline*}
-
-\begin{multline*}
-{\mathbf 11.}\;
-\sqrt{3\left(\sqrt{11} - \sqrt{8}\right)} \cdot \sqrt[4]{19 + 4\sqrt{22}} =\\
-= \sqrt{3\left(\sqrt{11} - \sqrt{8}\right)} \cdot \sqrt[4]{19 + 2 \cdot 2 \cdot \sqrt{2 \cdot 11}} =\\
-= \sqrt{3\left(\sqrt{11} - \sqrt{8}\right)} \cdot \sqrt[4]{19 + 2 \cdot \sqrt{4 \cdot 2 \cdot 11}} =\\
-= \sqrt{3\left(\sqrt{11} - \sqrt{8}\right)} \cdot \sqrt[4]{\left(\sqrt{11}\right)^2 + 2 \cdot \sqrt{8} \cdot \sqrt{11} + \left(\sqrt{8}\right)^2} =\\
-= \sqrt{3\left(\sqrt{11} - \sqrt{8}\right)} \cdot \sqrt[4]{\left(\sqrt{11} + \sqrt{8}\right)^2} =\\
-= \sqrt{3\left(\sqrt{11} - \sqrt{8}\right) \cdot \left(\sqrt{11} + \sqrt{8}\right)} =
-\sqrt{3 \cdot 3} = 3;
-\end{multline*}
-
-\begin{multline*}
-{\mathbf 15.}\;
-\frac{a^2 + 1}{a\sqrt{\left(\frac{a^2 - 1}{2a}\right)^2 + 1}} =
-\frac{a^2 + 1}{a\sqrt{\frac{a^4 - 2a^2 + 1}{4a^2} + 1}} =
-\frac{a^2 + 1}{a\sqrt{\frac{a^4 - 2a^2 + 1 + 4a^2}{4a^2}}} =\\
-\frac{a^2 + 1}{\frac{\cancel{a}}{2\cancel{a}}\sqrt{a^4 + 2a^2 + 1}} =
-\frac{a^2 + 1}{\frac{\sqrt{\left(a^2 + 1\right)^2}}{2}} =
-2 \cdot \frac{a^2 + 1}{a^2 + 1} = 2;
-\end{multline*}
-
-\begin{multline*}
-{\mathbf 17.}\;
-\frac{\sqrt{x} + 2}{x\sqrt{x} + 2x + 4\sqrt{x}} : \frac{1}{\left(x^2 - 8\sqrt{x}\right)} =
-\frac{\left(\sqrt{x} + 2\right) \cdot \left(x^2 - 8\sqrt{x}\right)}{x\sqrt{x} + 2x + 4\sqrt{x}} =\\
-= \frac{\left(\sqrt{x} + 2\right) \cdot \sqrt{x} \cdot \left(\sqrt{x^3} - 2^3\right)}{x\sqrt{x} + 2x + 4\sqrt{x}} =
-\frac{\left(\sqrt{x} + 2\right) \cdot \sqrt{x} \cdot \left(\sqrt{x} - 2\right)\left(x + 2\sqrt{x} + 4\right)}{x\sqrt{x} + 2x + 4\sqrt{x}} =\\
-= \frac{\left(\sqrt{x} + 2\right) \cdot \cancel{\sqrt{x}} \cdot \left(\sqrt{x} - 2\right)\cancel{\left(x + 2\sqrt{x} + 4\right)}}{\cancel{\sqrt{x}}\cancel{\left(x + 2\sqrt{x} + 4\right)}} =
-x - 4;
-\end{multline*}
-
-\textbf{21.} $\sqrt{4 + \sqrt{x - 2}} + \sqrt{x + 2 + \sqrt{2 - x}}$.
-
+\frac{\sqrt{\left(\sqrt{3} - \sqrt{5}\right)^2}}{\sqrt{3} - \sqrt{5}} =
+\frac{\left|\sqrt{3} - \sqrt{5}\right|}{\sqrt{3} - \sqrt{5}} =
+\frac{\sqrt{5} - \sqrt{3}}{-\left(\sqrt{5} - \sqrt{3}\right)} = -1.
+\end{flalign*}
+\textbf{8.} Обчислити:
 $$
-ODZ: 
-\begin{cases}
-x - 2 \ge 0,\\
-2 - x \ge 0;
-\end{cases}
-\Longleftrightarrow
-\begin{cases}
-x\ge 2,\\
-x \le 2;
-\end{cases}
-\Longleftrightarrow
-x = 2;
+\frac{\sqrt{48 - 8\sqrt{35}}}{\sqrt{20} - \sqrt{28}}.
 $$
+Візьмемо до уваги, що:
+\begin{gather*}
+48 - 8\sqrt{35} = 28 - 2 \cdot 2 \cdot 2 \cdot \sqrt{5 \cdot 7} + 20 =\\
+(\sqrt{28})^2 - 2\sqrt{4 \cdot 5 \cdot 4 \cdot 7} + (\sqrt{20})^2 =\\
+(\sqrt{28})^2 - 2\sqrt{20 \cdot 28} + (\sqrt{20})^2 =\\
+\left(\sqrt{28} - \sqrt{20}\right)^2.
+\end{gather*}
+Отже,
+\begin{flalign*}
+&\frac{\sqrt{48 - 8\sqrt{35}}}{\sqrt{20} - \sqrt{28}} =
+\frac{\sqrt{\left(\sqrt{28} - \sqrt{20}\right)^2}}{\sqrt{20} - \sqrt{28}} =
+\frac{\left|\sqrt{28} - \sqrt{20}\right|}{\sqrt{20} - \sqrt{28}} =\\
+&\frac{\sqrt{28} - \sqrt{20}}{-\left(\sqrt{28} - \sqrt{20}\right)} = -1.
+\end{flalign*}
 
-$\sqrt{4 + 0} + \sqrt{2 + 2 + 0} = 2 + 2 = 4$;
-\end{comment}
+
+\section*{Група 3}
