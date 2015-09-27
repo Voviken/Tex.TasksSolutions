@@ -638,6 +638,8 @@ $$
 -36 + 36 - x = -x.
 \end{flalign*}
 При $x = 8,1$, отримаємо $-8,1$.
+\vspace{5mm}
+\\
 \textbf{19.} Обчислити:
 $$
 \left(\dfrac{x^\frac{3}{2} + 8}{x^\frac{1}{2} + 2} - 2x^\frac{1}{2}\right) : \dfrac{x - 4}{12} + \dfrac{48}{x^\frac{1}{2} + 2}, \;\;\; \mbox{якщо} \;\;\; x = 2,1634.
@@ -672,4 +674,78 @@ $$
 \dfrac{\sqrt{a} - \sqrt{b} + 2\sqrt{b}}{\sqrt{a} + \sqrt{b}} =
 \dfrac{\sqrt{a} + \sqrt{b}}{\sqrt{a} + \sqrt{b}} = 1.
 \end{flalign*}
-\section*{Група 3}
+\textbf{21.} Обчислити:
+$$
+\sqrt{4+\sqrt{x-2}}+\sqrt{x+2+\sqrt{2-x}}.
+$$
+З ОДЗ можна знайти чому дорівнює $x$:
+$$
+\left\{
+\begin{aligned}
+x-2&\geq0,\\
+2-x&\geq0;
+\end{aligned}
+\right.
+\Leftrightarrow
+\left\{
+\begin{aligned}
+x&\geq2,\\
+x&\leq2;
+\end{aligned}
+\right.
+\Leftrightarrow
+x=2.
+$$
+Підставимо $x=2$ у вираз і отримаємо:
+$$
+\sqrt{4+0}+\sqrt{2+2+0}=2+2=4.
+$$
+\textbf{22.} Обчислити:
+$$
+\sqrt{x-3\cdot\sqrt{x-4}}-\sqrt{9+\sqrt{4-x}}.
+$$
+З ОДЗ можна знайти чому рівне $x$:
+$$
+\left\{
+\begin{aligned}
+x-4&\geq0,\\
+4-x&\geq0;
+\end{aligned}
+\right.
+\Leftrightarrow
+\left\{
+\begin{aligned}
+x&\geq4,\\
+x&\leq4;
+\end{aligned}
+\right.
+\Leftrightarrow
+x=4.
+$$
+Підставимо $x=4$ у вираз і отримаємо:
+$$
+\sqrt{4-3\cdot0}-\sqrt{9+0}=2+3=5.
+$$
+\textbf{23.} Обчислити:
+$$
+\left(\dfrac{\sqrt{x-1}}{\sqrt{x+1}+\sqrt{x-1}}+\dfrac{x-1}{\sqrt{x^2-1}-x+1}\right):\sqrt{x^2-1}.
+$$
+Нічого особливого тут видумувати не будемо. Єдине, що кидається одразу в очі, це те, що можна зробити заміну, щоб менше було писанини. Але перед тим запишемо наш вираз в такому вигляді:
+$$
+\left(\dfrac{\sqrt{x-1}}{\sqrt{x+1}+\sqrt{x-1}}+\dfrac{x-1}{\sqrt{x-1}\cdot\sqrt{x+1}-(x-1)}\right):\sqrt{x-1}\cdot\sqrt{x+1}.
+$$
+Тепер введемо таку заміну:
+$$
+a=x-1;\;\;\;b=x+1.
+$$
+Отримаємо:
+\begin{multline*}
+\left(\dfrac{\sqrt{a}}{\sqrt{b}+\sqrt{a}}+\dfrac{b}{\sqrt{ab}-a}\right)\cdot\dfrac{1}{\sqrt{ab}}=
+\dfrac{a\sqrt{b}-\cancel{a\sqrt{a}}+\cancel{a\sqrt{a}}+a\sqrt{b}}{\cancel{a\sqrt{b}}-a\sqrt{a}+b\sqrt{a}-\cancel{a\sqrt{b}}}\cdot\dfrac{1}{\sqrt{ab}}=\\
+=\dfrac{2a\cdot\sqrt{b}}{\sqrt{a}(b-a)}\cdot\dfrac{1}{\sqrt{ab}}=
+\dfrac{2a}{a\cdot(b-a)}=\dfrac{2}{b-a}.
+\end{multline*}
+Повернемося до нашої заміни:
+$$
+\dfrac{2}{x+1-x+1}=\dfrac{2}{2}=1.
+$$
