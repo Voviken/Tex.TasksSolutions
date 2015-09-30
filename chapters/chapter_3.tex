@@ -510,24 +510,25 @@ $$
 Тепер перетворимо заміну:
 $$
 \sin2\alpha=\cos\left(\dfrac{\pi}{2}-2\alpha\right)=\cos2\left(\dfrac{\pi}{4}-\alpha\right)=
-2\cdot\cos^2\left(\dfrac{\pi}{4}\right)-1;
+2\cdot\cos^2\left(\dfrac{\pi}{4}-\alpha\right)-1;
 $$
 Тобто:
 $$
-2\cdot\cos^2\left(\dfrac{\pi}{4}\right)-1=-0,84;
+2\cdot\cos^2\left(\dfrac{\pi}{4}-\alpha\right)-1=-0,84;
 \Leftrightarrow
-\cos^2\left(\dfrac{\pi}{4}-\alpha\right)=0,08;
-\Leftrightarrow
-\cos\left(\dfrac{\pi}{4}-\alpha\right)=\pm\sqrt{0,08};
+\cos\left(\alpha-\dfrac{\pi}{4}\right)=\pm\sqrt{0,08};
 $$
-Нам дано, що $\dfrac{3\pi}{4}<\alpha<\pi$. Звідси ми повинні визначити в якій чверті знаходиться $\dfrac{\pi}{4}-\alpha$. Для цього проведемо такі перетворення:
+Для того, щоб визначити який знак потрібно брати, чи плюс, чи мінус, ми повинні дослідити дану нам умову $\dfrac{3\pi}{4}<\alpha<\pi$. Але в даному випадку ми маємо просто $\alpha$, а нам потрібно щоб було $\dfrac{\pi}{4}-\alpha$. Отже, ми проведемо такі нескладні перетворення:
 \begin{gather*}
-\dfrac{3\pi}{4}<\alpha<\pi \; \left|\cdot(-1);\\
--\pi<-\alpha<-\dfrac{3\pi}{4};
--\pi+\dfrac{\pi}{4}<\dfrac{\pi}{4}-\alpha<\dfrac{3\pi}{4}-\dfrac{\pi}{4};
--\dfrac{3\pi}{4}<\dfrac{\pi}{4}-\alpha<-\dfrac{\pi}{2}.
+\dfrac{3\pi}{4}<\alpha<\pi;\\
+-\pi<-\alpha<-\dfrac{3\pi}{4};\\
+-\pi+\dfrac{\pi}{4}<-\alpha+\dfrac{\pi}{4}<-\dfrac{3\pi}{4}+\dfrac{\pi}{4};\\
+-\dfrac{3\pi}{4}<\dfrac{\pi}{4}-\alpha<-\dfrac{\pi}{2};
 \end{gather*}
-
+Звідси видно, що $\cos\left(\dfrac{\pi}{4}-\alpha\right)$ знаходиться в другій чверті, а там косинус є від'ємний. Значить, потрібно брати знак місус.
+$$
+\sqrt{2}\cdot\left(-\sqrt{0,08}\right)=-\sqrt{0,16}=-0,4.
+$$
 \section*{Група 3}
 \textbf{1.} Обчислити:
 $$
